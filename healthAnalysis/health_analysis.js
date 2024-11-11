@@ -70,8 +70,8 @@ function generateReport() {
 
 addPatientButton.addEventListener("click", addPatient);
 
-function searchCondition() {
-  const input = document.getElementById('conditionInput').value.toLowerCase();
+function searchCondition() { 
+  const input = document.getElementById('conditionInput').value.toLowerCase().trim();
   const resultDiv = document.getElementById('result');
   resultDiv.innerHTML = '';
 
@@ -101,3 +101,12 @@ function searchCondition() {
   });
 }
 btnSearch.addEventListener('click', searchCondition);
+
+ 
+const input = document.getElementById('conditionInput');
+
+input.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') { 
+    searchCondition(); 
+  }
+});
