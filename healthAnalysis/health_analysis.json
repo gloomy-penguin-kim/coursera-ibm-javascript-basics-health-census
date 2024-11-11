@@ -6,7 +6,7 @@
 
         "name": "Thyroid",
 
-        "imagesrc":"thyroid-diabetes.png",
+        "imagesrc":"/thyroid.jpg",
 
         "symptoms": [
 
@@ -40,7 +40,7 @@
 
         "name": "Diabetes",
 
-        "imagesrc":"diabeties.jpg",
+        "imagesrc":"/blood.jpg",
 
         "symptoms": [
 
@@ -74,7 +74,7 @@
 
         "name": "High Blood Pressure",
 
-        "imagesrc":"blood_pressure.jpg",
+        "imagesrc":"/blood_pressure.jpg",
 
         "symptoms": [
 
